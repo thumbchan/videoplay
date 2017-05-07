@@ -1,0 +1,65 @@
+*{
+	margin: 0;padding: 0;
+}
+#video{
+	width: 600px;height: 500px;margin: 50px auto;
+}
+.content{
+	width: 600px;height: 400px;background: url(../img/3.jpg);
+}
+.progress{
+	width: 600px;height: 30px;
+}
+.progress div{
+	float: left;margin-top: 5px;
+}
+.progress .currTime,.allTime{
+	width: 70px;height: 30px;line-height: 30px;
+}
+.progress .currTime{
+	
+}
+.progress .pro{
+	width: 460px;height: 30px;background:#ff00ff;border-radius: 15px;
+}
+.progress .allTime{
+	
+}
+
+
+/*控制按钮来了*/
+.controls div{
+	width: 64px;height: 64px;
+	background: url(../img/icon.png);float: left;margin: 17px;cursor: pointer;
+}
+#prev{
+	background-position: -413px -214px;
+}
+#play{
+	background-position:-252px -123px;
+}
+#next{
+	background-position:-252px -214px;
+}
+#stop{
+	background-position:-576px -123px;
+}
+#volume{
+	background-position:-576px -214px;
+}
+#fullScreen{
+	background:url(../img/fullscreen.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
